@@ -17,3 +17,15 @@ function animEnd(event) {
 var elDusty = document.getElementById("dusty");
 elDusty.addEventListener("mousemove", moDusty, false);
 elDusty.addEventListener("webkitAnimationEnd", animEnd, false);
+
+function linkOne() {
+  location.href = "https://admiringsmilik.netlify.app";
+}
+
+function linkTwo() {
+  location.href = "https://www.youtube.com/watch?v=bID0fkkVW4s";
+}
+
+function linkThree() {
+  location.href = "https://unpakt.netlify.app/";
+}
